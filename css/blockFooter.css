@@ -1,0 +1,82 @@
+.blockFooter{
+	justify-content :space-around;
+	background-color: #696262;
+	display: flex;
+}
+.socialActivity{
+	display: inline-block;
+	margin-bottom: 2.5em;
+	width: 11em;
+	height: 9em;
+}
+.listSocialIcon{
+	list-style-type: none;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.itemSocialIcon{
+	background-color: #9C9494;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	border-radius: 50%;
+	margin-left: 1em;
+	padding: 0.5em;
+	height: 1em;
+	width: 1em;
+}
+.listSocialIcon :nth-child(4){
+	position:relative;
+	bottom:-15%;
+}
+.listSocialIcon :nth-child(5){
+	position:relative;
+	bottom:-15%;
+}
+.listSocialIcon :nth-child(6){
+	position:relative;
+	bottom:-15%;
+}
+.headerSocialActivity{
+	margin: 0.5em 0.5em 0.5em 0.3em;
+	display: inline-block;
+	font-size: large;
+	color: #DCD4D4;
+}
+.linksForHelp,
+.contacts{
+	display: inline-block;
+}
+.listContacts,
+.listLinksForHelp,
+.listSuccessSteps{
+	display: inline-block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.itemLinkForHelp,
+.itemListSteps{
+	margin: 0 0.5em 0.5em 0.5em;
+}
+.linksHelp{
+	text-decoration: blink;
+	color: #54B3FF;
+}
+.headerContacts,
+.headerLinksForHelp,
+.headerSuccessSteps{
+	text-align: center;
+	color: #DCD4D4;
+}
+.successSteps{
+	display: inline-block;
+}
+.listSuccessSteps{
+	list-style-type :decimal;
+}
+.itemListSteps,
+.itemListContacts{
+	color:  #DCD4D4;
+}

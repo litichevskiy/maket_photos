@@ -1,0 +1,13 @@
+@media (max-width: 1270px){
+	input[data-role="search"]{
+		width: 200px;
+	}
+	.itemListNavPanel,
+	.mainHeader{
+		font-size: smaller;
+	}
+	.navigationPanel{
+		display: flex;
+		justify-content :space-between;
+	}
+}

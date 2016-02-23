@@ -1,0 +1,67 @@
+.navigationPanel{
+	background-color: #5279E6;
+	height: 3em;
+	width: 100%;
+}
+input[data-role="menuForSmallDevice"],
+.openCloseMenu{
+	display: none;
+}
+input[data-role="search"]{
+	padding: 0.3em 0.3em 0.3em 0.6em;
+	margin-top: 10px;
+	outline: none;
+	width: 400px;
+}
+.listElementNavigation{
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 3em 0 0;
+	height: inherit;
+	padding: 0;
+}
+.itemListNavPanel{
+	display: table;
+	height: 100%;
+	float: left;
+
+	margin-right: 1em;
+}
+.smallLogo,
+.itemListNavPanel,
+.iconSearch:hover{
+	cursor: pointer;
+}
+.selectedItem{
+	vertical-align: middle;
+	display: table-cell;
+	color: white;
+}
+.logo{
+	margin: 0 0 0 4em;
+	display: table;
+	height: 100%;
+	float: left;
+}
+.search{
+	display: inline-block;
+	height: 100%;
+	margin: 0;
+}
+.mainHeader,
+.smallLogo{
+	vertical-align: middle;
+	display: table-cell;
+}
+.mainHeader{
+	color: white;
+	padding-left: 1em;
+	font-size: medium;
+}
+.iconSearch{
+	position: relative;
+	left: -20px;
+}
+.navigationPanel{
+	text-align: right;
+}
