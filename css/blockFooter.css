@@ -28,18 +28,6 @@
 	height: 24px;
 	width: 24px;
 }
-/*.listSocialIcon :nth-child(4){
-	position:relative;
-	bottom:-15%;
-}
-.listSocialIcon :nth-child(5){
-	position:relative;
-	bottom:-15%;
-}
-.listSocialIcon :nth-child(6){
-	position:relative;
-	bottom:-15%;
-}*/
 .headerSocialActivity{
 	margin: 0.5em 0.5em 0.5em 0.3em;
 	display: inline-block;
