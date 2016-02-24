@@ -4,7 +4,9 @@
 	width: 100%;
 }
 input[data-role="menuForSmallDevice"],
-.openCloseMenu{
+input[data-role="searchForSmallDevice"],
+.openCloseMenu,
+.openCloseSearch{
 	display: none;
 }
 input[data-role="search"]{
@@ -60,8 +62,26 @@ input[data-role="search"]{
 }
 .iconSearch{
 	position: relative;
-	left: -20px;
+	right: 20px;
 }
 .navigationPanel{
 	text-align: right;
+}
+.smallTransparentLayer{
+	background-color: #79B7B9;
+	position: absolute;
+	display: none;
+	opacity: 0.5;
+	height: 100%;
+	width:100%;
+}
+.iconSearchSmall{
+	margin: 0 10px 0 0;
+}
+.iconSearchSmall,
+.close:hover{
+	cursor: pointer;
+}
+.close{
+	display: none;
 }

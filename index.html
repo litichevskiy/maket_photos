@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="./css/blockFoto.css">
 		<link rel="stylesheet" type="text/css" href="./css/blockFooter.css">
 		<link rel="stylesheet" type="text/css" href="./css/css_for_device_less_1280px.css">
+		<link rel="stylesheet" type="text/css" href="./css/css_for_device_less_320px.css">
 	</head>
 	<body>
 		<div class="container">
@@ -18,16 +19,28 @@
 					</span>
 					<span class="mainHeader">IT News Hub</span>
 				</div>
+				<input type="checkbox" id="openCloseMenu" data-role="menuForSmallDevice"/>
+				<div class="smallTransparentLayer"></div>
+
+				<input type="checkbox" id="openCloseSearch" data-role="searchForSmallDevice"/>
+				<label class="openCloseSearch" for="openCloseSearch">
+					<span class="smallBlockMenu">
+						<img src="./photo/search_icon_white.png" class="iconSearchSmall" />
+					</span>
+				</label>
+
+				<label class="openCloseMenu" for="openCloseMenu">
+					<span class="smallBlockMenu">
+						<img src="./photo/close_icon.png" class="close">
+						<img src="./photo/menu_icon.png" class="iconSearchSmall hideSearchSmall"  />
+					</span>
+				</label>
 				<div class="search">
 					<span class="selectedItem">
-						<input type="text" placeholder="Search" data-role="search"/>
+						<input type="text" placeholder="Search" data-role="search" />
 						<img src="./photo/search_icon.png" class="iconSearch" />
 					</span>
 				</div>
-				<input type="checkbox" id="openCloseMenu" data-role="menuForSmallDevice"/>
-				<label class="openCloseMenu" for="openCloseMenu">
-					<span></span>
-				</label>
 				<ul class="listElementNavigation">
 					<li class="itemListNavPanel">
 						<span class="selectedItem">about</span>
@@ -41,24 +54,21 @@
 				</ul>
 			</nav>
 			<div class="blockFoto">
+				<div class="descriptionFoto">
+					<div class="transparentLayer"></div>
+					<section class="mainBlock">
+						<img class="fotoForDescription" src="">
+						<div class="closeBigPhoto">
+							<img src="./photo/close_icon.png" class="mainFoto">
+						</div>
+						<p class="content"></p>
+					</section>
+				</div>
 				<ul class="listFoto">
-
 					<li class="itemFoto">
 						<img src="./photo/1.jpg" class="preview" />
 						<div class="textForFoto">
-							Вас просят дать вон тот, определенный мяч, мяч о котором уже шла речь. Вас просят дать вон тот, определенный мяч, мяч о котором уже шла речь.
-						</div>
-						<div class="descriptionFoto">
-							<div class="transparentLayer"></div>
-							<section class="mainBlock">
-								<img class="fotoForDescription" src="./photo/1.jpg">
-								<div class="closeBigPhoto">
-									<img src="./photo/close_icon.png" class="mainFoto">
-								</div>
-								<p class="content">
-									Вас просят дать вон тот, определенный мяч, мяч о котором уже шла речь. Вас просят дать вон тот, определенный мяч, мяч о котором уже шла речь.
-								</p>
-							</section>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 						</div>
 					</li>
 					<li class="itemFoto">
@@ -66,21 +76,11 @@
 						<div class="textForFoto">
 							Risus Pharetra
 						</div>
-						<div class="descriptionFoto">
-							<img class="fotoForDescription" src="">
-							<p class="content">
-							</p>
-						</div>
 					</li>
 					<li class="itemFoto">
 						<img src="./photo/3.jpg" class="preview" />
 						<div class="textForFoto">
 							Risus Pharetra Tellus
-						</div>
-						<div class="descriptionFoto">
-							<img class="fotoForDescription" src="">
-							<p class="content">
-							</p>
 						</div>
 					</li>
 					<li class="itemFoto">
@@ -88,21 +88,11 @@
 						<div class="textForFoto">
 							Risus
 						</div>
-						<div class="descriptionFoto">
-							<img class="fotoForDescription" src="">
-							<p class="content">
-							</p>
-						</div>
 					</li>
 					<li class="itemFoto">
-						<img src="./photo/5.jpg" />
+						<img src="./photo/5.jpg" class="preview" />
 						<div class="textForFoto">
 							Risus Pharetra Tellus Mattis
-						</div>
-						<div class="descriptionFoto">
-							<img class="fotoForDescription" src="">
-							<p class="content">
-							</p>
 						</div>
 					</li>
 					<li class="itemFoto">
@@ -110,21 +100,11 @@
 						<div class="textForFoto">
 							Risus Pharetra Tellus Mattis
 						</div>
-						<div class="descriptionFoto">
-							<img class="fotoForDescription" src="">
-							<p class="content">
-							</p>
-						</div>
 					</li>
 					<li class="itemFoto">
 						<img src="./photo/7.jpg" class="preview" />
 						<div class="textForFoto">
 							Risus Pharetra Tellus Mattis
-						</div>
-						<div class="descriptionFoto">
-							<img class="fotoForDescription" src="">
-							<p class="content">
-							</p>
 						</div>
 					</li>
 					<li class="itemFoto">
@@ -132,32 +112,17 @@
 						<div class="textForFoto">
 							Risus Pharetra Tellus Mattis
 						</div>
-						<div class="descriptionFoto">
-							<img class="fotoForDescription" src="">
-							<p class="content">
-							</p>
-						</div>
 					</li>
 					<li class="itemFoto">
 						<img src="./photo/8.jpg" class="preview" />
 						<div class="textForFoto">
 							Risus Pharetra Tellus Mattis
 						</div>
-						<div class="descriptionFoto">
-							<img class="fotoForDescription" src="">
-							<p class="content">
-							</p>
-						</div>
 					</li>
 					<li class="itemFoto">
 						<img src="./photo/9.jpg" class="preview" />
 						<div class="textForFoto">
 							Risus Pharetra Tellus Mattis
-						</div>
-						<div class="descriptionFoto">
-							<img class="fotoForDescription" src="">
-							<p class="content">
-							</p>
 						</div>
 					</li>
 				</ul>
@@ -236,7 +201,9 @@
 							Glendale, Ohio
 						</li>
 						<li class="itemListContacts">
-							<a href="juan.Kelly@example.com" class="linksHelp">juan.Kelly@example.com</a>
+							<a href="mailto:juan.Kelly@example.com" class="linksHelp" title="send mail">
+								juan.Kelly@example.com
+							</a>
 						</li>
 						<li class="itemListContacts">(508)-639-5488</li>
 						<li class="itemListContacts">(103)-409-4107</li>

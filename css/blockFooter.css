@@ -21,12 +21,14 @@
 	vertical-align: top;
 	text-align: center;
 	border-radius: 50%;
+	line-height: 25px;
 	margin-left: 1em;
+	margin-bottom: 0.5em;
 	padding: 0.5em;
-	height: 1em;
-	width: 1em;
+	height: 24px;
+	width: 24px;
 }
-.listSocialIcon :nth-child(4){
+/*.listSocialIcon :nth-child(4){
 	position:relative;
 	bottom:-15%;
 }
@@ -37,7 +39,7 @@
 .listSocialIcon :nth-child(6){
 	position:relative;
 	bottom:-15%;
-}
+}*/
 .headerSocialActivity{
 	margin: 0.5em 0.5em 0.5em 0.3em;
 	display: inline-block;

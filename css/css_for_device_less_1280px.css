@@ -1,6 +1,6 @@
-@media (max-width: 1270px){
+@media (max-width: 1200px){
 	input[data-role="search"]{
-		width: 200px;
+		width: 250px;
 	}
 	.itemListNavPanel,
 	.mainHeader{
@@ -9,5 +9,10 @@
 	.navigationPanel{
 		display: flex;
 		justify-content :space-between;
+	}
+	img.mainFoto{
+		position: absolute;
+		top: 0;
+		right: 0;
 	}
 }

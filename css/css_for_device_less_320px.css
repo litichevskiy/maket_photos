@@ -1,0 +1,132 @@
+@media (max-width: 768px){
+
+	input[data-role="search"]{
+		width: 100px;
+	}
+	.navigationPanel{
+		display: block;
+	}
+	.iconSearch{
+
+		position:absolute;
+		right: 35px;
+		bottom: 20px;
+	}
+	.blockFooter{
+		flex-direction: column;
+	}
+	.listElementNavigation,
+	.search{
+		display: none;
+	}
+	.socialActivity{
+		display: block;
+		width:100%;
+		height:5em;
+	}
+	.itemSocialIcon{
+		background-color: #9C9494;
+		display: inline;
+		vertical-align: top;
+		text-align: center;
+		border-radius: 50%;
+		padding: 0.5em;
+		margin: 1px;
+	}
+	.headerContacts,
+	.headerLinksForHelp,
+	.headerSuccessSteps{
+		text-align: left;
+	}
+	.mainBlock{
+		left: 0;
+		right: 0;
+		width: 100%;
+	}
+	img.close{
+		font-size: inherit;
+		margin: 0 14px 3px 0;
+	}
+	img.mainFoto{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.logo{
+		margin: 0 0 0 2em;
+	}
+	.openCloseMenu,
+	.selectedItem{
+		display:block;
+	}
+	.itemListNavPanel{
+		display:block;
+		float:none;
+		height:30px
+	}
+	.openCloseMenu{
+		display:inline-block;
+		margin: 0 2em 0 0;
+		text-align:center;
+		vertical-align: middle;
+		padding:0.5em;
+	}
+	.openCloseSearch{
+		display:inline-block;
+		margin: 0;
+		text-align:center;
+		vertical-align: middle;
+		padding:0.5em;
+	}
+	input[data-role="menuForSmallDevice"]:checked ~
+	.listElementNavigation{
+		display:block;
+		position:absolute;
+		top:3em;
+		right:0;
+		width:50%;
+		height:100%;
+		background-color:#3F5EB3;
+		margin-right:0;
+	}
+	input[data-role="menuForSmallDevice"]:checked ~
+	.smallTransparentLayer{
+		display: block;
+		top: 3em;
+		left: 0;
+	}
+	input[data-role="searchForSmallDevice"]:checked ~
+	.search{
+		display: block;
+		background-color: #1B7ECC;
+		padding:0;
+		height: 50px;
+		position:relative;
+		top: 5px;
+	}
+	input[data-role="searchForSmallDevice"]:checked ~
+	.search
+	.selectedItem
+	input{
+		width:90%;
+		margin: auto;
+		display: block;
+		position: absolute;
+		top:10px;
+		bottom:10px;
+		left:0;
+		right:0;
+	}
+	input[data-role="menuForSmallDevice"]:checked ~
+	.openCloseMenu
+	.smallBlockMenu
+	.close {
+		display: block;
+	}
+	input[data-role="menuForSmallDevice"]:checked ~
+	.openCloseMenu
+	.smallBlockMenu
+	.hideSearchSmall{
+		display: none;
+	}
+}
